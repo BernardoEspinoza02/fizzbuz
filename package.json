@@ -7,6 +7,9 @@
     "test": "node ./node_modules/jest/bin/jest.js"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "author": "BERNARDO",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^28.0.3"
+  }
 }
