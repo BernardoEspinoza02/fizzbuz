@@ -16,6 +16,6 @@ describe("Tests para ExplorerService", () => {
     test ("Muestra el nombre del Usuario", () => {
         const explorers = [{mission : "node"}];
         const explorersInNode = ExplorerService.getExplorersUsernamesByMission(explorers, "node");
-        expect(explorersInNode.missionn)
+        expect(explorersInNode.mission)
     })
 })
