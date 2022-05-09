@@ -3,13 +3,21 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
   "scripts": {
     "test": "node ./node_modules/jest/bin/jest.js"
   },
-  "keywords": [],
-  "author": "BERNARDO",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BernardoEspinoza02/fizzbuz.git"
+  },
+  "author": "bernardo",
   "license": "ISC",
-  "devDependencies": {
-    "jest": "^28.0.3"
-  }
+  "bugs": {
+    "url": "https://github.com/BernardoEspinoza02/fizzbuz/issues"
+  },
+  "homepage": "https://github.com/BernardoEspinoza02/fizzbuz#readme"
 }
